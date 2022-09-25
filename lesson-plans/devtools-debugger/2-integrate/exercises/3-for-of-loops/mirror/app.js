@@ -13,12 +13,14 @@ whenFormDataChanges('input', () => {
 
   let userText = readString('to-mirror');
 
+  let userchoice = readString('mirror-select');
   // --- mirror the text ---
 
-  let mirrored = ' | ';
+  let mirrored = userchoice;
   for (let char of userText) {
-    mirrored = char + mirrored + char;
+    mirrored = char.toUpperCase() + mirrored + char.toLowerCase();
   }
+  
 
   // --- display the result ---
 

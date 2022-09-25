@@ -1,11 +1,14 @@
 'use strict';
 
 let input = null;
-while (input === null || input.length !== 5) {
+let input1 ="";
+while (input1 === null || input1.length !== 10) {
   input = prompt('enter something with 5 characters:');
+  input1 = input1 + input ;
 }
 
-let message = 'thank you for "' + input + '"!';
+
+let message = 'thank you for "' + input1 + '"!';
 
 alert(message);
 

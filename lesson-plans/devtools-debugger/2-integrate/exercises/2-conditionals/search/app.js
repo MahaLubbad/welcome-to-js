@@ -17,16 +17,20 @@ whenFormDataChanges('search-input', () => {
 
   let caseSensitive = readBoolean('sensitive');
 
-  // --- do the search ---
-
+  // --- do the search ----
   let doesExist = false;
+  
+  if (!caseSensitive) {
 
-  if (caseSensitive) {
-    doesExist = searchThis.includes(findThis);
-  } else {
     let smallSearchThis = searchThis.toLowerCase();
     let smallFindThis = findThis.toLowerCase();
     doesExist = smallSearchThis.includes(smallFindThis);
+  } else {
+    /*
+    let smallSearchThis = searchThis.toLowerCase();
+    let smallFindThis = findThis.toLowerCase();
+    */
+    doesExist = searchThis.includes(findThis);
   }
 
   // --- create the message ---

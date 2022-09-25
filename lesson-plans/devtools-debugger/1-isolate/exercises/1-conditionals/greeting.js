@@ -1,6 +1,8 @@
 'use strict';
 
-let input = prompt('enter your name:');
+let  first = prompt('enter your first name:');
+let last = prompt ('enter your final name');
+let input = first + ' '+ last ;
 
 let greeting = '';
 if (input === null) {

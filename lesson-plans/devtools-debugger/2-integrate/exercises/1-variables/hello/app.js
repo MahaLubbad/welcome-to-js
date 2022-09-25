@@ -7,19 +7,20 @@ import {
 
 whenFormDataChanges('user-info', () => {
   debugger;
+ 
 
   console.log('\n--- form data changed ---');
 
   // --- read user input ---
 
-  let name = readString('the-name');
+  let firstname = readString('the-fname');
+  let lastname = readString('the-lname');
 
   console.log(name);
 
   // --- create a message ---
 
-  let greeting = 'Hello ' + name + '!';
-
+  let greeting = 'Hello ' + firstname + ' ' +lastname + '! \n good bye';  
   // --- display the message ---
 
   displayString('greeting-output', greeting);
