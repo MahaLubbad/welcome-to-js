@@ -3,7 +3,7 @@
 'use strict';
 
 /*
-  environment:
+  environment:chrome
 
   name:
   message:
@@ -12,14 +12,14 @@
 
   life cycle:
 
-  the mistake:
+  the mistake:usoing const 
 
-  the fix(es):
+  the fix(es):change const into let
 */
 
 const userName = 'qopiznu';
 
-const path;
+let path;
 
 if (userName.length > 4) {
   path = 'if';

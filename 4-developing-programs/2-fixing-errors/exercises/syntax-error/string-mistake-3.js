@@ -14,9 +14,10 @@
 
   the mistake:
 
-  the fix(es):
+  the fix(es):add + to concatenate strings 
 */
 
-const quotesInQuotes = 'remind yourself ''i can do this!'' at least once a day';
+const quotesInQuotes = 'remind yourself '+'i can do this!'+' at least once a day';
 
 
+console.log(quotesInQuotes);

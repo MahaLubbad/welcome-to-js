@@ -23,7 +23,7 @@
       ACTUAL:
 
     TRY:
-    PREDICT:
+    PREDICT:USE if (char.includes('!')) instead of (char !== '!)
     IT DID:
     EXPLAIN:
 
@@ -41,7 +41,7 @@ while (input === null) {
 
 let isExcited = false;
 for (const char of input) {
-  if (char !== '!') {
+  if (char.includes('!')) {
     isExcited = true;
     break;
   }

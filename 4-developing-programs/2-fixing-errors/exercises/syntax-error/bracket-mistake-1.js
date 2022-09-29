@@ -4,25 +4,21 @@
 
 
 /*
-  environment:
+  environment:chrome
 
-  name:
-  message:
+  name:SyntaxError
+  message:Unexpected end of input
 
-  callstack:
+  callstack:line 24
 
-  life cycle:
+  life cycle:creation phase
 
-  the mistake:
+  the mistake:not Writing }
 
-  the fix(es):
+  the fix(es):add end}
 */
 
 
 
 for (let i = 0; i < 5; i++) {
-  console.log(i);
-
-
-
-
+  console.log(i)};

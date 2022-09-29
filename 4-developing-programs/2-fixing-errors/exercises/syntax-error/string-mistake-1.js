@@ -12,12 +12,11 @@
 
   life cycle:
 
-  the mistake:
+  the mistake:adding line in string
 
-  the fix(es):
+  the fix(es):use \n for adding line in a string
 */
 
-const a = 'this is
-two lines';
-
+const a = 'this is\ntwo lines';
+console.log(a);
 

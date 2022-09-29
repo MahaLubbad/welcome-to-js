@@ -3,18 +3,18 @@
 console.log('--- in execution phase ---');
 
 /*
-  environment:
+  environment:browser chrome
 
-  name:
-  message:
+  name:ReferenceError
+  message: cannot access 'tomatoes' before initialization
 
-  location:
+  location:line 20, column 13
 
-  life cycle:
+  life cycle:in exection phase
 
-  the mistake:
+  the mistake:Logging the variable 'tomatoes' before declaration and initialization
 
-  the fix(es):
+  the fix(es):Declare and initilize ' tomatoes' before logging it.
 */
 
 console.log(tomatoes);

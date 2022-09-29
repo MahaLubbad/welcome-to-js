@@ -14,9 +14,10 @@
 
   the mistake:
 
-  the fix(es):
+  the fix(es):change userInput to not null value 
+  OR console.log(userInput)
 */
 
 const userInput = null;
 
-console.log(userInput.length);
+console.log(userInput);

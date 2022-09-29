@@ -3,12 +3,12 @@
 'use strict';
 
 /*
-  environment:
+  environment:chrome
 
-  name:
-  message:
+  name:SyntaxError
+  message:Unexpected identifier
 
-  callstack:
+  callstack:line 22
 
   life cycle:
 
@@ -21,4 +21,4 @@ const anchorName = '#Home';
 
 const innerHtml = "<p>Click here to <a href="anchorName">go home</a></p>";
 
-
+console.log(innerHtml);

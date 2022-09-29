@@ -3,20 +3,21 @@
 console.log('--- in execution phase ---');
 
 /*
-  environment:
+  environment:chrome
 
-  name:
-  message:
+  name:SyntaxError
+  message: Identifier 'tree' has already been declared
 
-  location:
+  location:line 22
 
-  life cycle:
+  life cycle:Creation phase
 
-  the mistake:
+  the mistake:identifing tree two times
 
-  the fix(es):
+  the fix(es):assign tree the second time without idetifing it again 
+  OR declare another name of variable
 */
 
 let tree = 'oak';
 
-let tree = 'birch';
+ tree = 'birch';

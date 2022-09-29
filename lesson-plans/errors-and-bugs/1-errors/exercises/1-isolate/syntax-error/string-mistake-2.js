@@ -6,20 +6,21 @@ console.log('--- in execution phase ---');
 
 
 /*
-  environment:
+  environment:browser chrome 
 
-  name:
-  message:
+  name:SyntaxError 
+  message:Unexpected string 
 
-  location:
+  location:line 23 
 
-  life cycle:
+  life cycle:Creation phase 
 
-  the mistake:
+  the mistake: concatenation strings together without using +
 
-  the fix(es):
+  the fix(es):Using the operator + to concatenate strings togother 
 */
 
-const quotesInQuotes = 'remind yourself ''i can do this!'' at least once a day';
+const quotesInQuotes = 'remind yourself '+'i can do this!'+' at least once a day';
 
 
+console.log(quotesInQuotes);

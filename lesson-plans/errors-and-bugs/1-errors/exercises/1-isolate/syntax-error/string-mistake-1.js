@@ -6,21 +6,21 @@ console.log('--- in execution phase ---');
 
 
 /*
-  environment:
+  environment:browser chrome 
 
-  name:
-  message:
+  name:SyntaxError 
+  message:Invalid or unexpected token 
 
-  location:
+  location:line 23 
 
-  life cycle:
+  life cycle:Creatin phase 
 
-  the mistake:
+  the mistake:Adding line break in string.
 
-  the fix(es):
+  the fix(es):Using \n to add line break.
 */
 
-const a = 'this is
-two lines';
+const a = 'this is \ntwo lines';
 
+console.log(a);
 

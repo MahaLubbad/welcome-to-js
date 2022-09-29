@@ -12,9 +12,9 @@
 
   life cycle:
 
-  the mistake:
+  the mistake:using reserved value (undefined)
 
   the fix(es):
 */
 
-const undefined = 'three';
+const unKnown = 'three';

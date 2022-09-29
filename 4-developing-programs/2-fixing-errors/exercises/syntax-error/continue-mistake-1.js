@@ -14,7 +14,7 @@
 
   the mistake:
 
-  the fix(es):
+  the fix(es):remove continue
 */
 
 const userName = 'wingdoz';

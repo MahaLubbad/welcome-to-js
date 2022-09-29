@@ -6,25 +6,25 @@ console.log('--- in execution phase ---');
 
 
 /*
-  environment:
+  environment:browser chrome 
 
-  name:
-  message:
+  name:SyntaxError 
+  message:Unexpected token
 
-  location:
+  location:line 27
 
-  life cycle:
+  life cycle:Creation Phase
 
-  the mistake:
+  the mistake:Using else more than one time 
 
-  the fix(es):
+  the fix(es): using  if else  , then else 
 */
 
 let userName = 'indrogo';
 
 if (userName.length < 3) {
   console.log('too short');
-} else (userName.length < 5) {
+}  else if (userName.length < 5) {
   console.log('just right');
 } else {
   console.log('too long');

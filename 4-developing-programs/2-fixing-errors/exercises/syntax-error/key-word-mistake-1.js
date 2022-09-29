@@ -12,12 +12,12 @@
 
   life cycle:
 
-  the mistake:
+  the mistake:using if instead of for
 
-  the fix(es):
+  the fix(es):use for
 */
 
-if (let i = 0; i < 5; i++) {
+for (let i = 0; i < 5; i++) {
   console.log(i);
 }
 

@@ -12,11 +12,11 @@
 
   life cycle:
 
-  the mistake:
+  the mistake:no primative
 
-  the fix(es):
+  the fix(es):add primative (book)
 */
 
-const = 'always be learning';
+const book = 'always be learning';
 
 

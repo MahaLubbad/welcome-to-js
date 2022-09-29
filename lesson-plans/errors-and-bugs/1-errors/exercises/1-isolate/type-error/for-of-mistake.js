@@ -3,21 +3,21 @@
 console.log('--- in execution phase ---');
 
 /*
-  environment:
+  environment:chrome
 
-  name:
-  message:
+  name:TypeError
+  message:maxNumber is not iterable
 
-  location:
+  location:line 22
 
-  life cycle:
+  life cycle:In execution phase 
 
-  the mistake:
+  the mistake:Using number in for of loop 
 
-  the fix(es):
+  the fix(es):Using string or array 
 */
 
-const maxNumber = 6;
+const maxNumber = [0, 1, 2, 3, 4, 5];
 
 for (const i of maxNumber) {
   console.log(i); // 0, 1, 2, 3, 4, 5

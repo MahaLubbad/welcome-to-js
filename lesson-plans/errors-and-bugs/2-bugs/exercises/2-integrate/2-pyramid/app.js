@@ -2,7 +2,7 @@ import {
   whenFormDataChanges,
   readString,
   displayString,
-} from '../../../../../../../lib/dom-io/index.js';
+}from '../../../../../../../welcome-to-js/lib/dom-io/index.js';
 
 whenFormDataChanges('input', () => {
   // debugger;
@@ -16,8 +16,11 @@ whenFormDataChanges('input', () => {
 
   let pyramid = '';
   for (const brick of bricks) {
-    pyramid = pyramid + '\n' + pyramid + brick;
+  
+   pyramid =  pyramid + brick +'\n'+ pyramid ;
+    
   }
+  
 
   // --- display the pyramid ---
 

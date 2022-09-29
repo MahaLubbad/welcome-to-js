@@ -22,7 +22,8 @@
       ACTUAL:
 
     TRY:
-    PREDICT:
+    PREDICT:remove let in line 38 before prompt
+            edit input>4  -> input.length >4
     IT DID:
     EXPLAIN:
 
@@ -31,17 +32,18 @@
 
 */
 
-let input = '';
 
+let input ='';
 let prompting = true;
 while (prompting) {
-  let input = prompt(
-    'enter something longer than 4 characters, or "cancel" to leave',
-  );
+  input = prompt(
+    'enter something longer than 4 characters, or "cancel" to leave');
+
   if (input === null) {
     prompting = false;
     input = 'you canceled';
-  } else if (input > 4) {
+
+  } else if (input.length > 4) {
     prompting = false;
   }
 }

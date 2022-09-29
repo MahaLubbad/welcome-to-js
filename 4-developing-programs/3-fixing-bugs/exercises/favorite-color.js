@@ -35,10 +35,12 @@ let message = 'you entered "';
 while (true) {
   const input = prompt('enter something');
 
-  if (input === null && input.length === 0) {
-    message = input + '"';
-    break;
+  if (input === null || input.length === 0) {
+    
+    continue;
   }
+  message = input + '"';
+  break;
 }
 
 alert(message);

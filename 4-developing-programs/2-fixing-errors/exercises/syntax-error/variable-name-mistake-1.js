@@ -13,12 +13,12 @@
 
   life cycle:
 
-  the mistake:
+  the mistake:using number as primative
 
   the fix(es):
 */
 
 
-const 3 = 'three';
+const  = 'three';
 
 

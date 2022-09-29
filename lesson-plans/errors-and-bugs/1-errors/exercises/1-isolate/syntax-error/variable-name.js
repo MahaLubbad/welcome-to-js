@@ -7,21 +7,21 @@ console.log('--- in execution phase ---');
 
 
 /*
-  environment:
+  environment:chrome
 
-  name:
-  message:
+  name:SyntaxError
+  message:Unexepted number
 
-  location:
+  location:line 25 
 
-  life cycle:
+  life cycle:Creation phase 
 
-  the mistake:
+  the mistake:using numbers for variables
 
-  the fix(es):
+  the fix(es):write it in letters
 */
 
 
-const 3 = 'three';
+const three = 'three';
 
 

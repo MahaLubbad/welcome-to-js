@@ -3,27 +3,29 @@
 'use strict';
 
 /*
-  environment:
+  environment:chrome
 
-  name:
-  message:
+  name:ReferenceError
+  message: isValidUserName is not defined
 
-  callstack:
+  callstack: line 29
 
-  life cycle:
+  life cycle: excution phase
 
-  the mistake:
+  the mistake: isValidUserName is declared twice as const 
 
-  the fix(es):
+  the fix(es):declare it by using let 
 */
 
 const userName = 'chiobin';
 console.log('userName:', typeof userName, userName);
 
+let isValidUserName=true ;
+
 if (userName.length > 4) {
-  const isValidUserName = true;
+   isValidUserName = true;
 } else {
-  const isValidUserName = false;
+   isValidUserName = false;
 }
 
 console.log('isValidUserName:', typeof isValidUserName, isValidUserName);

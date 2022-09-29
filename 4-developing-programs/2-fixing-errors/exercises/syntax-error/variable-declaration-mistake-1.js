@@ -12,11 +12,11 @@
 
   life cycle:
 
-  the mistake:
+  the mistake:declaration of variable tree twice
 
-  the fix(es):
+  the fix(es):remove the second let
 */
 
 let tree = 'oak';
 
-let tree = 'birch';
+ tree = 'birch';

@@ -3,20 +3,20 @@
 'use strict';
 
 /*
-  environment:
+  environment:chrome
 
-  name:
-  message:
+  name:ReferenceError
+  message:welf is not defined
 
   callstack:
 
-  life cycle:
+  life cycle:creation phase
 
-  the mistake:
+  the mistake:variable not decladred
 
-  the fix(es):
+  the fix(es):using let to declare the variable
 */
 
-welf = 'ingrad';
+let welf = 'ingrad';
 
 console.log(welf);

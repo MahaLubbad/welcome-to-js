@@ -3,18 +3,18 @@
 console.log('--- in execution phase ---');
 
 /*
-  environment:
+  environment:browser chrome 
 
-  name:
-  message:
+  name:RefernceError 
+  message:cannot access 'isValidUserName' before initialization
 
-  location:
+  location:line:24 , column:19
 
-  life cycle:
+  life cycle:in execution phase
 
-  the mistake:
+  the mistake:The variable 'isValidUserName' is not declared before initialization
 
-  the fix(es):
+  the fix(es): Initializing the variable before assignning it.
 */
 
 const userName = 'chiobin';

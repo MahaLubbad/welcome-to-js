@@ -14,10 +14,10 @@
 
   the mistake:
 
-  the fix(es):
+  the fix(es):variable = value (not value = variable)
 */
 
 let favoriteNumber = 4;
-3 = favoriteNumber;
+ favoriteNumber=3;
 
 

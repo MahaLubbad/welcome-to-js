@@ -12,16 +12,16 @@
 
   life cycle:
 
-  the mistake:
+  the mistake:we cant use break in if coditional loops
 
-  the fix(es):
+  the fix(es): remove break
 */
 
 const userName = 'wingdoz';
 
 if (userName.length > 3) {
   console.log(userName);
-  break;
+ 
 }
 
 

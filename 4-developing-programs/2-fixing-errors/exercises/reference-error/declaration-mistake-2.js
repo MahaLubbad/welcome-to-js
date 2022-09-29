@@ -3,28 +3,28 @@
 'use strict';
 
 /*
-  environment:
+  environment:chrome
 
-  name:
-  message:
+  name:ReferenceError
+  message:Cannot access 'isValidUserName' before initialization
 
-  callstack:
+  callstack:line 24
 
-  life cycle:
+  life cycle:let isValidUserName;
 
-  the mistake:
+  the mistake:variable not declared before initialized 
 
-  the fix(es):
+  the fix(es):declare before initialize 
 */
 
 const userName = 'chiobin';
 console.log('userName:', typeof userName, userName);
-
+let isValidUserName ;
 if (userName.length > 3) {
   isValidUserName = true;
 }
 
-let isValidUserName;
+
 
 if (userName.length <= 3) {
   isValidUserName = false;

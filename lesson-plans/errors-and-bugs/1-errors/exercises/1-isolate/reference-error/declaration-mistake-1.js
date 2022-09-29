@@ -3,18 +3,18 @@
 console.log('--- in execution phase ---');
 
 /*
-  environment:
+  environment:browser chrome 
 
-  name:
-  message:
+  name: referenceError
+  message:welf is not defiend
 
-  location:
+  location:line: 20 , column:6
 
-  life cycle:
+  life cycle:in exection phase 
 
-  the mistake:
+  the mistake:The variable not declared
 
-  the fix(es):
+  the fix(es):Declaring the variable 
 */
 
 welf = 'ingrad';
